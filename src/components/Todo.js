@@ -66,6 +66,12 @@ class Todo extends Component {
 		this.setState({show: true, tempId: item.id, inputPopup: item.todo});
 		
 	}
+	
+	hidePopup = () => {
+		// render todo value / tạo 1 item state mới từ item
+		this.setState({show: false});
+		
+	}
 
 	PopupSubmit = (e) => {
 		e.preventDefault();
@@ -92,7 +98,7 @@ class Todo extends Component {
 				</div>
 				<TodoForm inputChanger={this.inputHandle} submit={this.addItem}/>
 				<TodoList data={this.state.item} showPopup={this.showPopup} del={this.deleteItem}/>
-				<Popup show={this.state.show} inputPopup={this.state.inputPopup} submit={this.PopupSubmit} />
+				<Popup show={this.state.show} inputPopup={this.state.inputPopup} hidePopup={this.hidePopup} submit={this.PopupSubmit} />
 			</div>
 		);
 	}

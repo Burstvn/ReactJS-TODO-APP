@@ -29,3 +29,10 @@
     border-radius: 0px 5px 5px 0px;
     margin-top: -4px;
 }
+
+.popup .fa-times-circle{
+    position: absolute;
+    right: 30px;
+    top:  30px;
+    font-size: 40px;
+}

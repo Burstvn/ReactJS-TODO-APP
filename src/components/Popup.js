@@ -16,6 +16,7 @@ export default class Popup extends Component {
                             onClick={this.props.submit} 
                             >Submit
                         </button>
+                        <i className="fa fa-times-circle" aria-hidden="true" onClick={this.props.hidePopup}></i>
                     </form>                
             </div>
         )
