@@ -1,0 +1,31 @@
+
+.popup{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 128, 128, 0.97);
+}
+
+.popup input{
+    flex-grow: 1;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgb(187, 48, 14);
+    background-color: rgb(187, 48, 14);
+    color: white;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    box-shadow: 2px 4px 6px #888888;
+    outline: none;
+}
+
+.popup button{
+    padding: 0.5rem 2rem;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: -4px;
+}

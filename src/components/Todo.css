@@ -1,0 +1,17 @@
+.todo{
+    width: 400px;
+    background-color: aqua;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    min-height: 400px;
+    position: relative;
+}
+
+.show{
+    display: flex;
+}
+
+.disabled{
+    display: none;
+}

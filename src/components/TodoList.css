@@ -1,0 +1,31 @@
+.item{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 2px 4px 6px #888888;
+}
+
+.content{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(47, 47, 123);
+    background-color: rgb(47, 47, 123);
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    outline: none;
+}
+
+.edit{
+    position: absolute;
+    right: 1rem;
+}
+
+.btn-edit{
+    color: chocolate;
+    font-size: 1rem;
+    margin: 5px;
+}

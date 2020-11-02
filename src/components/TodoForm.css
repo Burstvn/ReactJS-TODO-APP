@@ -1,0 +1,31 @@
+.todo-form{
+    width: 100%;
+    display: flex;
+}
+.todo-form input{
+    flex-grow: 1;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 48, 14);
+    background-color: rgb(187, 48, 14);
+    color: white;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    margin-right: 10px;
+    box-shadow: 2px 4px 6px #888888;
+    outline: none;
+}
+
+.todo-form input::placeholder{
+    color: rgb(50, 50, 50);
+    font-weight: 100;
+}
+
+.todo-form button{
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    color: brown;
+    font-weight: 700;
+    box-shadow: 2px 4px 6px #888888;
+    outline: none;
+}
